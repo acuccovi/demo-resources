@@ -22,6 +22,7 @@ public class DemoApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
+		writeFileContentToStdOut("log4j2/log4j2.xml");
 		writeFileContentToStdOut("file1.txt");
 		writeFileContentToStdOut("file2.txt");
 	}
